@@ -16,8 +16,8 @@ $fontSize-large: 60px;
 $color-darkPurple: #000000;
 $color-lightPurple: #000000;
 $color-lightGray: #000000;
-$color-darkWhite: #000000;
-$color-white: #000000;
+$color-darkWhite: #ffffff;
+$color-white: #ffffff;
 
 $fontWeight-medium: 500;
 $fontWeight-light: 300;
@@ -113,8 +113,10 @@ button {
 
 
 .banner {
-    margin: 0 20px;
     position: relative;
+    top: -130px;
+    left: -10px;
+    z-index: -2;
 
     &__background {
         display: grid;
@@ -127,6 +129,8 @@ button {
         &__collection {
             display: flex;
             flex-direction: row;
+            align-items: center;
+            justify-content: center;
             
 
             h2 {
@@ -140,8 +144,8 @@ button {
     .title{
         position: absolute;
         z-index: 1;
-        justify-content: space-between;
         align-items: center;
+        justify-content: center;
         
     }
 
