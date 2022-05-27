@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "animate.css": "^4.1.1",
-    "firebase": "^9.7.0"
+    "firebase": "^9.7.0",
+    "install": "^0.13.0",
+    "npm": "^8.11.0"
   },
   "name": "roseta",
   "version": "1.0.0",
