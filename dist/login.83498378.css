@@ -5,7 +5,7 @@
 }
 
 html, body {
-  font-family: Outfit, sans-serif;
+  font-family: Inconsolata, monospace;
 }
 
 a {
@@ -25,7 +25,7 @@ a {
 .main__aside {
   width: 30%;
   height: 935px;
-  background-color: #ffecae;
+  background-color: #b8aae0;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -41,18 +41,18 @@ a {
 
 .main__header img {
   width: 100px;
-  margin: 20px 50px 10px;
+  margin: 20px 50px 10px 36px;
 }
 
 .main__header h1 {
-  color: #daa520;
-  margin: 10px 50px 0;
+  color: #000;
+  margin: 10px 50px 0 30px;
   font-size: 200%;
   font-weight: 800;
 }
 
 .main__header h4 {
-  color: #daa520;
+  color: #fff;
   margin: 0 50px 90px;
   font-weight: 300;
 }
@@ -75,7 +75,7 @@ a {
 }
 
 .main__loginForm label {
-  color: #643a71;
+  color: #85459b;
   margin: 25px 0 5px;
   font-size: 100%;
 }
@@ -87,7 +87,7 @@ a {
   border-radius: 10px;
   margin-bottom: 25px;
   padding: 15px 25px;
-  font-family: Outfit, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 100%;
 }
 
@@ -99,19 +99,19 @@ a {
 }
 
 .main__toRegister span {
-  color: #643a71;
+  color: #85459b;
   margin-right: 5px;
   font-size: 100%;
 }
 
 .main__toRegister a {
-  color: #d183c9;
+  color: #ff7564;
   font-size: 100%;
 }
 
 .main #submit {
   color: #fff;
-  background-color: #d183c9;
+  background-color: #ff7564;
   margin-top: 20px;
   font-weight: 500;
 }

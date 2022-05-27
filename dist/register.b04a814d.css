@@ -5,7 +5,8 @@
 }
 
 html, body {
-  font-family: Outfit, sans-serif;
+  font-family: Inconsolata, monospace;
+  font-weight: bold;
 }
 
 a {
@@ -25,7 +26,7 @@ a {
 .main__aside {
   width: 30%;
   height: 935px;
-  background-color: #ffc8ae;
+  background-color: #000;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -45,14 +46,21 @@ a {
 }
 
 .main__header h1 {
-  color: #e2642a;
+  color: #b8aae0;
   margin: 10px 50px 0;
   font-size: 200%;
   font-weight: 800;
 }
 
+.main__header h2 {
+  color: #fff;
+  margin: 10px 50px 0;
+  font-size: 150%;
+  font-weight: 500;
+}
+
 .main__header h4 {
-  color: #e2642a;
+  color: #b8aae0;
   margin: 0 50px 90px;
   font-weight: 300;
 }
@@ -75,7 +83,7 @@ a {
 }
 
 .main__registerForm label {
-  color: #643a71;
+  color: #85459b;
   margin: 25px 0 5px;
   font-size: 100%;
 }
@@ -87,8 +95,9 @@ a {
   border-radius: 10px;
   margin-bottom: 25px;
   padding: 15px 25px;
-  font-family: Outfit, sans-serif;
+  font-family: Inconsolata, monospace;
   font-size: 100%;
+  font-weight: bold;
 }
 
 .main__toLogin {
@@ -99,19 +108,19 @@ a {
 }
 
 .main__toLogin span {
-  color: #643a71;
+  color: #85459b;
   margin-right: 5px;
   font-size: 100%;
 }
 
 .main__toLogin a {
-  color: #d183c9;
+  color: #ff7564;
   font-size: 100%;
 }
 
 .main #submit {
   color: #fff;
-  background-color: #d183c9;
+  background-color: #ff7564;
   margin-top: 20px;
   font-weight: 500;
 }
