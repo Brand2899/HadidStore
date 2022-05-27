@@ -56,7 +56,7 @@ button {
 }
 
 .nav__left a {
-  color: #000;
+  color: #85459b;
 }
 
 .nav__right {
@@ -76,7 +76,7 @@ button {
 }
 
 .banner {
-  z-index: -2;
+  z-index: 1;
   position: relative;
   top: -130px;
   left: -10px;
@@ -120,9 +120,8 @@ button {
 }
 
 .carsl__title {
-  color: #000;
+  color: #85459b;
   margin-bottom: 10px;
-  font-size: 30px;
   font-weight: 500;
 }
 
@@ -155,7 +154,7 @@ button {
 }
 
 .carsl__cta a {
-  color: #000;
+  color: #85459b;
   font-size: 15px;
   font-weight: 300;
 }
@@ -189,20 +188,20 @@ button {
 }
 
 .news__info h2 {
-  color: #000;
+  color: #85459b;
   font-size: 30px;
   font-weight: 500;
 }
 
 .news__info p {
   width: 75%;
-  color: #000;
+  color: #85459b;
   font-size: 15px;
   font-weight: 300;
 }
 
 .news__info a {
-  color: #000;
+  color: #85459b;
   padding: 10px 0;
   font-size: 15px;
   font-weight: 300;
@@ -231,7 +230,7 @@ button {
 }
 
 .footer__container a {
-  color: #000;
+  color: #85459b;
   padding-left: 1%;
   padding-right: 1%;
   font-size: 15px;
@@ -245,7 +244,7 @@ button {
 }
 
 .footer__subtitle {
-  color: #000;
+  color: #85459b;
   font-size: 15px;
 }
 
@@ -269,7 +268,7 @@ button {
 }
 
 #divider {
-  border-color: #d183c97a;
+  border-color: #85459b;
 }
 
 /*# sourceMappingURL=index.c7ea8ffa.css.map */

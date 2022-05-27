@@ -13,9 +13,9 @@ $fontSize-small: 15px;
 $fontSize-medium: 30px;
 $fontSize-large: 60px;
 
-$color-darkPurple: #000000;
-$color-lightPurple: #000000;
-$color-lightGray: #000000;
+$color-darkPurple: #85459B;
+$color-lightPurple: #85459B;
+$color-lightGray: #85459B;
 $color-darkWhite: #ffffff;
 $color-white: #ffffff;
 
@@ -115,7 +115,7 @@ button {
     position: relative;
     top: -130px;
     left: -10px;
-    z-index: -2;
+    z-index: 1;
 
     &__background {
         display: grid;
@@ -161,11 +161,9 @@ button {
     margin: 50px 20px 0;
 
     &__title {
+        color: $color-lightPurple;
         margin-bottom: 10px;
-
-        font-size: $fontSize-medium;
         font-weight: $fontWeight-medium;
-        color: $color-darkPurple;
     }
 
     &__display {
@@ -181,16 +179,15 @@ button {
         }
 
         h2 {
+            color: $color-darkWhite;          
+            font-size: $fontSize-medium;
+            font-weight: $fontWeight-light;
             padding: 20px 10px;
-
             position: absolute;
-
             bottom: 0;
             left: 0;
 
-            font-size: $fontSize-medium;
-            font-weight: $fontWeight-light;
-            color: $color-white;
+            
         }
     }
 
@@ -326,5 +323,5 @@ button {
 }
 
 #divider {
-    border-color: #d183c97a;
+    border-color: #85459B;
 }
