@@ -13,11 +13,11 @@ $fontSize-small: 15px;
 $fontSize-medium: 30px;
 $fontSize-large: 60px;
 
-$color-darkPurple: #643A71;
-$color-lightPurple: #D183C9;
-$color-lightGray: #F3F3F3;
-$color-darkWhite: #FAFAFA;
-$color-white: #FFFFFF;
+$color-darkPurple: #000000;
+$color-lightPurple: #000000;
+$color-lightGray: #000000;
+$color-darkWhite: #000000;
+$color-white: #000000;
 
 $fontWeight-medium: 500;
 $fontWeight-light: 300;
@@ -124,22 +124,28 @@ button {
     grid-row-gap: 0px;
         }
 
-        &__content {
-            padding: 20px;
+        &__collection {
             display: flex;
-            align-items: center;
-
-            position: absolute;
-
-            bottom: 0;
-            left: 0;
+            flex-direction: row;
 
             h2 {
                 font-size: $fontSize-medium;
-                font-weight: $fontWeight-light;
+               // font-weight: $fontWeight-bold;
                 color: $color-white;
             }
         }
+    }
+
+    .title{
+        position: absolute;
+        z-index: 1;
+        justify-content: center;
+        left: 18em;
+        top: 32em;
+    }
+
+    .image{
+        position: relative;
     }
 
 
