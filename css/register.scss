@@ -7,12 +7,13 @@ $percent-fifth: 5%;
 $percent-third: 3%;
 $percent-min: 1%;
 
+$fontFamily: 'Inconsolata', monospace;
 $fontSize-small: 100%;
 $fontSize-medium: 150%;
 $fontSize-large: 200%;
 
-$color-darkPurple: #643A71;
-$color-lightPurple: #D183C9;
+$color-darkPurple: #85459B;
+$color-orange: #FF7564;
 $color-lightGray: #F3F3F3;
 $color-darkWhite: #FAFAFA;
 $color-white: #FFFFFF;
@@ -24,10 +25,12 @@ $fontWeight-light: 300;
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+   
 }
 
 html, body{
-    font-family: 'Outfit', sans-serif;
+    font-family: $fontFamily;
+    font-weight: bold;
 }
 
 a{
@@ -44,7 +47,7 @@ a{
     justify-content: center;
 
     &__aside{
-        background-color: #ffc8ae;
+        background-color: #000000;
 
         width: 30%;
         height: 935px; 
@@ -68,15 +71,23 @@ a{
         }
 
         h1{
-            color: #e2642a;
+            color: #B8AAE0;
             font-weight: 800;
             font-size: $fontSize-large;
 
             margin: 10px 50px 0px 50px;
         }
 
+        h2{
+            color: #ffffff;
+            font-weight: 500;
+            font-size: $fontSize-medium;
+
+            margin: 10px 50px 0px 50px;
+        }
+
         h4{
-            color: #e2642a;
+            color: #B8AAE0;
             font-weight: $fontWeight-light;
 
             margin: 0px 50px 90px 50px;
@@ -115,7 +126,8 @@ a{
             padding: 15px 25px;
             margin-bottom: 25px;
 
-            font-family: 'Outfit', sans-serif;
+            font-family: $fontFamily;
+            font-weight: bold;
             font-size: $fontSize-small;
 
             border: none;
@@ -141,14 +153,14 @@ a{
 
         a{
             font-size: $fontSize-small;
-            color: $color-lightPurple;
+            color: $color-orange;
         }
     }
 
     #submit{
         margin-top: 20px;
 
-        background-color: $color-lightPurple;
+        background-color: $color-orange;
 
         font-weight: $fontWeight-medium;
         color: $color-white;
