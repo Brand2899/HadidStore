@@ -100,10 +100,9 @@ button {
 
 .title {
   z-index: 1;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   position: absolute;
-  top: 32em;
-  left: 18em;
 }
 
 .image {

@@ -127,6 +127,7 @@ button {
         &__collection {
             display: flex;
             flex-direction: row;
+            
 
             h2 {
                 font-size: $fontSize-medium;
@@ -139,9 +140,9 @@ button {
     .title{
         position: absolute;
         z-index: 1;
-        justify-content: center;
-        left: 18em;
-        top: 32em;
+        justify-content: space-between;
+        align-items: center;
+        
     }
 
     .image{
