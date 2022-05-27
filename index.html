@@ -130,7 +130,7 @@
 
     <section class="news flex">
         <div class="news__info flex">
-            <h2>WLCOME SUMMER</h2>
+            <h2>WELCOME SUMMER</h2>
 
             <p>The new summer collection awaits you from May 2022. Setting trends for sunny and beach days.
 
@@ -209,6 +209,13 @@
         </div>
     </footer>
 
-    <script src="./js/index.js"></script> 
+    <script>
+        const animationBanner = document.getElementById("banner__title");
+        animationBanner.addEventListener("mouseover", e => {
+            console.log("funcionanda");
+        });
+
+    </script> 
+
 </body>
 </html>
